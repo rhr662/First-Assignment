@@ -82,3 +82,138 @@ nav{
 }
 
 
+/** Pillars of "Bangladesh 2.0"  section style **/
+
+.section-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+
+}
+
+.pb-content{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    text-align: left;
+
+}
+
+
+
+/** The Vision of Future section style **/
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.card-content-1{
+    padding: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+
+}
+
+.card-content-2{
+    padding: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.card-content-3{
+    padding: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+
+}
+
+.card-btn-1{
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    padding: 10px 20px;
+}
+
+.card-btn-2{
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background:rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    padding: 10px 20px;
+}
+
+.card-btn-3{
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+/** Shared Style **/
+
+.margin{
+    margin: 0px  160px 80px 160px;
+}
+main section{
+    margin-bottom: 80px;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: fira sans;
+    color: rgb(14, 14, 14);
+    margin-bottom: 25px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0px 10px 0px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.primary-bg{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+
+
+ 

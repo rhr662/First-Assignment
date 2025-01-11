@@ -249,6 +249,76 @@ nav{
 }
 
 
+/** Donate section style **/
+
+.donate-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    font-family: fira sans;
+    color: rgb(14, 14, 14);
+    margin-bottom: 25px;
+}
+
+.donate-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0px 85px 30px 85px;
+
+}
+.donate-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px 30px 100px;
+    gap: 25px;
+}
+
+.tk-list{
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.list-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.input-area{
+    margin-right: 110px;
+    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  input::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    text-align: center;
+    
+  }
+
+  
+
+
+ 
+
 
 /** Shared Style **/
 
@@ -257,6 +327,12 @@ nav{
 }
 main, section{
     margin-bottom: 80px;
+}
+
+.text-center{
+    display: block;
+    text-align: center;
+    align-content: center;
 }
 
 .section-title{

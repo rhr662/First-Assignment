@@ -314,9 +314,89 @@ input {
     
   }
 
-  
+  /** footer section style **/
+
+.footer-bg{
+    padding: 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+
+}
 
 
+.footer-section{
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+footer input{
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  input::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    text-align: center;
+    
+  }
+
+
+
+.email{
+    display: flex;
+}
+
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    border: none;
+    background: rgb(0, 106, 80);
+    
+
+}
+
+.sub-info{
+    margin-top: 30px;
+}
+
+
+
+.fot-section{
+    box-sizing: border-box;
+    border: 1px 0px 0px 0px solid rgba(14, 14, 14, 0.15);
+   
+    background: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+
+.down-side{
+    
+    padding: 50px 160px;
+    
+}
+
+hr{
+    margin-bottom: 30px;
+    opacity: 0.2;
+}
+
+.icon{
+    margin: 0px 0px 20px 20px;
+}
  
 
 
@@ -373,6 +453,25 @@ main, section{
     
 
 }
+
+.taka:hover{
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+
+
+}
+
+.all-btn:hover{
+    cursor: pointer;
+    color: #3498db;
+    background-color: rgb(233, 236, 71);
+    transition: 0.5s;
+    
+
+}
+
 
 
 

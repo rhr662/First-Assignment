@@ -201,6 +201,53 @@ nav{
 
 }
 
+.satelite{
+    border-radius: 24px;
+}
+
+.news-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.date-time{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.news-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+    
+}
+
+.news-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+
+}
+
+.news-box-1{
+    display: flex;
+    margin-top: 30px;
+    padding: 48px;
+    gap: 30px;
+}
+
 
 
 /** Shared Style **/
